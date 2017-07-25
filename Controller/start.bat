@@ -1,0 +1,1 @@
+start pythonw subcontroller.pyw
