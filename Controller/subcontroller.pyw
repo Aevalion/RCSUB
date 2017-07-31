@@ -187,7 +187,7 @@ window.iconbitmap("images/light.ico")
 #start the servo controller on the pi for later use
 #and bind stdin_servo, stdout_servo, and stderr_servo to the channel
 #of the servocontroller to be able to control it
-stdin_servo, stdout_servo, stderr_servo = ssh.exec_command("sudo python servotest.py")
+stdin_servo, stdout_servo, stderr_servo = ssh.exec_command("sudo python servocontroller.py")
 
 
 #image variables for each button
