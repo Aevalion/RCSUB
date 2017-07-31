@@ -2,8 +2,8 @@ import time
 import RPi.GPIO as GPIO
 
 #the data pins for the servos
-rservopin = 18
-lservopin = 5
+rservopin = 12
+lservopin = 33
 
 GPIO.setmode(GPIO.BOARD)
 
